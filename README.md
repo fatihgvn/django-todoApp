@@ -8,7 +8,7 @@ my first django app
 
 ``sudo apt-get install gcc``
 
-``sudo apt-get install python3 python3-pip python3-dev``
+``sudo apt-get install python3 python3-pip python3-dev libpq-dev``
 
 
 ### PostgreSQL
@@ -46,4 +46,6 @@ exit
 
 ``sudo pip3 install django``
 
-``django-admin.py startproject .``
+``sudo apt-get install python3-psycopg2``
+
+``django-admin startproject djangotodoApp .``
